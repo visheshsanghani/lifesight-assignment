@@ -4,6 +4,8 @@
 
 🚀 **Live Demo**: [https://lifesight-assignment.netlify.app/](https://lifesight-assignment.netlify.app/)
 
+💻 **GitHub Repository**: [https://github.com/visheshsanghani/lifesight-assignment](https://github.com/visheshsanghani/lifesight-assignment)
+
 A React-based marketing analytics dashboard that displays aggregated marketing campaign data across multiple channels and regions with advanced filtering, sorting, and accessibility features.
 
 > **CI/CD Enabled**: This project uses continuous deployment via Netlify. Any code pushed to the `master` branch is automatically built and deployed to production.
