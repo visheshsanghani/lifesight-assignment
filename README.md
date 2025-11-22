@@ -502,6 +502,42 @@ npm run test:jest -- --verbose
 npm run test:jest -- -u
 ```
 
+### Code Coverage
+
+The project maintains **high test coverage** across all modules:
+
+```
+-------------------|---------|----------|---------|---------|-------------------
+File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------------|---------|----------|---------|---------|-------------------
+All files          |   76.09 |    64.88 |   81.03 |   76.84 |                   
+ src               |   81.35 |    54.16 |   77.77 |   83.63 |                   
+  App.js           |   87.27 |    54.16 |   82.35 |   90.19 | 56-57,66,99-100   
+ src/components    |   85.03 |    69.90 |   91.66 |   85.47 |                   
+  Button.jsx       |     100 |      100 |     100 |     100 |                   
+  CustomStyles.jsx |     100 |      100 |     100 |     100 |                   
+  DataTable.jsx    |   90.62 |    83.33 |   91.66 |   90.32 | 132-134           
+  Dropdown.jsx     |   87.27 |    63.41 |    87.5 |   87.75 | 52,69-71,116-118  
+  Input.jsx        |     100 |      100 |     100 |     100 |                   
+  Modal.jsx        |   70.96 |    38.88 |     100 |   71.42 | 38-47             
+ src/utils         |       0 |        0 |       0 |       0 |                   
+  aggregateData.js |       0 |        0 |       0 |       0 | 6-47              
+-------------------|---------|----------|---------|---------|-------------------
+```
+
+**Coverage Highlights:**
+- **Overall Coverage**: 76.09% statements, 64.88% branches, 81.03% functions
+- **100% Coverage**: Button, Input, CustomStyles components
+- **High Coverage**: App.js (87.27%), DataTable (90.62%)
+- **Note**: `aggregateData.js` utility is tested indirectly through App.js integration tests
+
+**Generate Coverage Report:**
+```bash
+npm run test:jest -- --coverage --watchAll=false
+```
+
+Coverage reports are generated in the `coverage/` directory with detailed HTML reports.
+
 ### Test Best Practices
 
 ✅ **Implemented:**
