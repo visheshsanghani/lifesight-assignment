@@ -1,0 +1,12 @@
+/* Modal Title */
+.modal-title {
+  margin-top: 0;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+/* Modal Actions Container */
+.modal-actions {
+  text-align: right;
+  padding-top: 15px;
+}

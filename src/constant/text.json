@@ -1,0 +1,47 @@
+{
+  "app": {
+    "title": "Dynamic Marketing Dashboard",
+    "buttons": {
+      "openConfigModal": "Open Config Modal",
+      "quickSortByClicks": "Quick Sort by Clicks",
+      "disabledButton": "Disabled Button"
+    },
+    "input": {
+      "filterLabel": "Filter by Channel Name",
+      "filterPlaceholder": "Start typing a channel (e.g., TikTok)"
+    },
+    "modal": {
+      "title": "Dashboard Configuration",
+      "description": "This is a custom modal, featuring a focus trap and accessible closure via the Escape key or backdrop click.",
+      "setting1Label": "Setting 1",
+      "setting1Value": "Example",
+      "modalInfo": "You can place any component inside the modal."
+    },
+    "status": {
+      "showingChannels": "Showing {current} of {total} channels. Aggregation completed in {time} ms.",
+      "noData": "No data available to display."
+    },
+    "dropdown": {
+      "sortBySpend": "Sort by Spend",
+      "sortByConversions": "Sort by Conversions",
+      "resetSort": "Reset Sort",
+      "selectMetric": "Select Metric"
+    }
+  },
+  "button": {
+    "ariaLabel": "Action button"
+  },
+  "dataTable": {
+    "headers": {
+      "channel": "Channel",
+      "totalSpend": "Total Spend",
+      "impressions": "Impressions",
+      "conversions": "Conversions",
+      "clicks": "Clicks"
+    },
+    "ariaLabel": "Marketing Channel Performance Summary"
+  },
+  "modal": {
+    "close": "Close"
+  }
+}
